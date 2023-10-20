@@ -11,15 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 
-
-
     <title>WEB PROGECT</title>
 </head>
 
-
-
-<body class="font-roboto bg-[url('/img/office.jpeg')] h-full w-full bg-cover bg-no-repeat ">
-
+<body class="font-roboto bg-[url('/img/office.jpeg')] h-full w-full bg-cover bg-no-repeat bg-center bg-local ">
 
     <nav class=" bg-blue-950  fixed z-30  w-full h-12 ">
         <div class=" flex flex-wrap items-center justify-between mx-auto p-0">
@@ -139,136 +134,136 @@
     <!-- 
     <img class="object-cover absolute h-full w-full lg:w-full md:w-full lg:h-full md:h-full pt-10 font-light z-0"
         src="/img/ofiic.jpeg" alt="cont"> -->
-    
-        <div class="flex absolute body-font text-white px-3 lg:px-24  left-9 py-6 z-10 ">
-            <h1 class="px-3  lg:px-32 py-12 lg:py-16 xl:text-3xl ">Организационная структура товарищества с ограниченной
-                ответственностью «Nur
-                Zholy Customs Service» </h1>
+
+    <div class="flex absolute  body-font text-white px-3 lg:px-24  left-9 py-6 z-10 ">
+        <h1 class="px-3  lg:px-32 py-12 lg:py-16 xl:text-3xl ">Организационная структура товарищества с ограниченной
+            ответственностью «Nur
+            Zholy Customs Service» </h1>
+    </div>
+
+    <img class="hidden lg:flex object-cover h-auto w-auto lg:w-auto md:w-auto lg:h-auto md:h-auto pt-48 px-40 font-light z-10"
+        src="/img/org-strucutre.png" alt="cont">
+
+
+
+
+
+    <div class="inline-block lg:hidden  py-64   px-14 ">
+
+        <button id="multiLevelDropdownButton" data-dropdown-toggle="dropdown"
+            class="z-10  bg-blue-800 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-950 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center text-white "
+            type="button">Единственный участник <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="m1 1 4 4 4-4" />
+            </svg>
+        </button>
+
+        <!-- Dropdown menu -->
+        <div id="dropdown" class="z-10 hidden   bg-blue-950 divide-y rounded-lg shadow w-44">
+            <ul class="py-2 text-sm text-white  bg-blue-950 " aria-labelledby="multiLevelDropdownButton">
+                <li class="py-1">
+                    <a href="#" class="block px-4 py-2   ">Советник
+                    </a>
+                </li>
+                <li>
+                    <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown"
+                        data-dropdown-placement="right-start" type="button"
+                        class="flex items-center justify-between w-full px-4 py-2  hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-950 border-t border-gray-300 my-0 ">Директор
+                        <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg></button>
+                    <div id="doubleDropdown" class="z-10 hidden  bg-blue-950 divide-y rounded-lg shadow w-44">
+                        <ul class="py-2 text-sm text-white " aria-labelledby="doubleDropdownButton">
+                            <li class="py-1">
+                                <a href="#" class="block px-4 py-2  ">Юридическая
+                                    служба
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 border-t border-gray-300 my-0   ">Финансовая
+                                    служба
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 border-t border-gray-300 my-0  ">Служба
+                                    безопасности
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 border-t border-gray-300 my-0  ">Служба
+                                    информационных технологий
+                                </a>
+                            </li>
+
+
+                            <button id="doubleDropdownBut" data-dropdown-toggle="doubleDropdo"
+                                data-dropdown-placement="right-start" type="button"
+                                class="flex  w-full px-4 py-2  hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-950 border-t border-gray-300 my-0  ">Заместитель
+                                директора
+                                <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 9 4-4-4-4" />
+                                </svg></button>
+                            <div id="doubleDropdo" class="z-10 hidden bg-blue-950 divide-y rounded-lg shadow w-44">
+                                <ul class="py-2 text-sm text-white " aria-labelledby="doubleDropdownBut">
+                                    <li>
+                                        <a href="#" class="block px-4 py-2  ">Служба по стратегическому планированию
+                                            и
+                                            инвестиционным проектам
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
+
+
+                            <button id="doubleDropdownButt" data-dropdown-toggle="doubleDropdow"
+                                data-dropdown-placement="right-start" type="button"
+                                class="flex  w-full px-4 py-2 border-t border-gray-300 my-0   hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-950  ">Заместитель
+                                директора
+
+                                <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 9 4-4-4-4" />
+                                </svg></button>
+                            <div id="doubleDropdow" class="z-10 hidden bg-blue-950 divide-y rounded-lg shadow w-44">
+                                <ul class="py-2 text-sm text-white " aria-labelledby="doubleDropdownButt">
+                                    <li>
+                                        <a href="#" class="block px-4 py-2  ">Служба контроля СВХ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="block px-4 py-2 border-t border-gray-300 my-0   ">Служба
+                                            внутреннего администрирования
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="block px-4 py-2 border-t border-gray-300 my-0  ">Служба
+                                            эксплуатации
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </ul>
+
+                    </div>
+
+
+                </li>
+
+            </ul>
         </div>
+    </div>
 
-        <img class="hidden lg:flex object-cover absolute h-auto w-auto lg:w-auto md:w-auto lg:h-auto md:h-auto pt-48 px-40 font-light z-10"
-            src="/img/org-strucutre.png" alt="cont">
-
-
-
-
-
-        <div class="inline-block lg:hidden absolute py-64   px-14 ">
-
-            <button id="multiLevelDropdownButton" data-dropdown-toggle="dropdown"
-                class="z-10  bg-blue-800 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-950 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center text-white "
-                type="button">Единственный участник <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="m1 1 4 4 4-4" />
-                </svg>
-            </button>
-
-            <!-- Dropdown menu -->
-            <div id="dropdown" class="z-10 hidden   bg-blue-950 divide-y rounded-lg shadow w-44">
-                <ul class="py-2 text-sm text-white  bg-blue-950 " aria-labelledby="multiLevelDropdownButton">
-                    <li class="py-1">
-                        <a href="#" class="block px-4 py-2   ">Советник
-                        </a>
-                    </li>
-                    <li>
-                        <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown"
-                            data-dropdown-placement="right-start" type="button"
-                            class="flex items-center justify-between w-full px-4 py-2  hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-950 border-t border-gray-300 my-0 ">Директор
-                            <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                fill="none" viewBox="0 0 6 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m1 9 4-4-4-4" />
-                            </svg></button>
-                        <div id="doubleDropdown" class="z-10 hidden  bg-blue-950 divide-y rounded-lg shadow w-44">
-                            <ul class="py-2 text-sm text-white " aria-labelledby="doubleDropdownButton">
-                                <li class="py-1">
-                                    <a href="#" class="block px-4 py-2  ">Юридическая
-                                        служба
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="block px-4 py-2 border-t border-gray-300 my-0   ">Финансовая
-                                        служба
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="block px-4 py-2 border-t border-gray-300 my-0  ">Служба
-                                        безопасности
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="block px-4 py-2 border-t border-gray-300 my-0  ">Служба
-                                        информационных технологий
-                                    </a>
-                                </li>
-
-
-                                <button id="doubleDropdownBut" data-dropdown-toggle="doubleDropdo"
-                                    data-dropdown-placement="right-start" type="button"
-                                    class="flex  w-full px-4 py-2  hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-950 border-t border-gray-300 my-0  ">Заместитель
-                                    директора
-                                    <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true"
-                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="2" d="m1 9 4-4-4-4" />
-                                    </svg></button>
-                                <div id="doubleDropdo" class="z-10 hidden bg-blue-950 divide-y rounded-lg shadow w-44">
-                                    <ul class="py-2 text-sm text-white " aria-labelledby="doubleDropdownBut">
-                                        <li>
-                                            <a href="#" class="block px-4 py-2  ">Служба по стратегическому планированию
-                                                и
-                                                инвестиционным проектам
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-
-
-
-
-                                <button id="doubleDropdownButt" data-dropdown-toggle="doubleDropdow"
-                                    data-dropdown-placement="right-start" type="button"
-                                    class="flex  w-full px-4 py-2 border-t border-gray-300 my-0   hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-950  ">Заместитель
-                                    директора
-
-                                    <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true"
-                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="2" d="m1 9 4-4-4-4" />
-                                    </svg></button>
-                                <div id="doubleDropdow" class="z-10 hidden bg-blue-950 divide-y rounded-lg shadow w-44">
-                                    <ul class="py-2 text-sm text-white " aria-labelledby="doubleDropdownButt">
-                                        <li>
-                                            <a href="#" class="block px-4 py-2  ">Служба контроля СВХ
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="block px-4 py-2 border-t border-gray-300 my-0   ">Служба
-                                                внутреннего администрирования
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" class="block px-4 py-2 border-t border-gray-300 my-0  ">Служба
-                                                эксплуатации
-                                            </a>
-                                        </li>
-                                    </ul>
-
-                                </div>
-                            </ul>
-
-                        </div>
-
-
-                    </li>
-
-                </ul>
-            </div>
-        </div>
-    
 
 
 

@@ -940,6 +940,14 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\/img\/Astana\.jpg\'\)\] {
+  background-image: url('/img/Astana.jpg');
+}
+
+.bg-\[url\(\'\/img\/bg-history\.png\'\)\] {
+  background-image: url('/img/bg-history.png');
+}
+
 .bg-\[url\(\'\/img\/finance\.jpg\'\)\] {
   background-image: url('/img/finance.jpg');
 }
@@ -948,16 +956,16 @@ video {
   background-image: url('/img/office.jpeg');
 }
 
-.bg-\[url\(\'\/img\/Astana-tower\.jpg\'\)\] {
-  background-image: url('/img/Astana-tower.jpg');
-}
-
-.bg-\[url\(\'\/img\/bg-history\.png\'\)\] {
-  background-image: url('/img/bg-history.png');
-}
-
 .bg-cover {
   background-size: cover;
+}
+
+.bg-local {
+  background-attachment: local;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-no-repeat {
@@ -1104,8 +1112,43 @@ video {
   padding-bottom: 24rem;
 }
 
-.pb-24 {
-  padding-bottom: 6rem;
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pl-1 {
@@ -1132,12 +1175,32 @@ video {
   padding-top: 2.5rem;
 }
 
-.pt-16 {
-  padding-top: 4rem;
-}
-
 .pt-48 {
   padding-top: 12rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-7 {
+  padding-top: 1.75rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-center {
@@ -1509,6 +1572,26 @@ video {
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .lg\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .lg\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .lg\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .lg\:py-40 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 
   .lg\:pl-6 {
