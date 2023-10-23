@@ -14,141 +14,138 @@
     <title>WEB PROGECT</title>
 </head>
 
-<body class="font-roboto bg-[url('/img/office.jpeg')] h-full w-full bg-cover bg-no-repeat bg-center bg-local ">
+<body class="font-roboto bg-gradient-to-br from-blue-800 to-black h-full w-full bg-cover bg-center bg-local ">
 
-    <nav class=" bg-blue-950  fixed z-30  w-full h-12 ">
-        <div class=" flex flex-wrap items-center justify-between mx-auto p-0">
-            <a href="/index.html" class="flex  justify-start w-56 h-12 p-2">
-                <img src="./img/logo(2).png" class="h-8 ml-7 " alt="Flowbite Logo" />
-            </a>
-            <button data-collapse-toggle="navbar-dropdown" type="button"
-                class="inline-flex  bg-blue-950 items-center p-2 w-10 h-10 justify-center text-xs md:text-xs  text-white rounded-lg md:hidden  "
-                aria-controls="navbar-dropdown" aria-expanded="false">
-                <span class="sr-only "></span>
-                <svg class="w-5 h-5   " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                    viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M1 1h15M1 7h15M1 13h15" />
-                </svg>
-            </button>
-            <div class="hidden w-full  md:block md:w-auto text-white" id="navbar-dropdown">
-                <ul
-                    class="flex uppercase flex-col xl:text-base md:text-xs font-bold p-4 md:p-0 mt-5 border  bg-blue-950 text-white rounded-lg md:flex-row md:space-x-0.5 lg:md:space-x-1 md:mt-0 md:border-0 ">
-                    <li>
-                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
-                            class="flex items-center uppercase justify-between w-full py-3 pl-1 pr-4  pr-4rounded md:hover:bg-transparent md:border-0  md:w-auto hover:text-orange-500">Компания
-                            <svg class="w-2.5 h-2.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                fill="none" viewBox="0 0 10 6">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m1 1 4 4 4-4" />
-                            </svg></button>
-                        <!-- Dropdown menu -->
-                        <div id="dropdownNavbar"
-                            class="z-10 hidden font-normal bg-orange-500 divide-yrounded-lg shadow w-auto">
-                            <ul class="py-6  " aria-labelledby="dropdownLargeButton">
-                                <li>
-                                    <a href="/history.html" class="block px-6 py-2">История</a>
-                                </li>
-                                <li>
-                                    <a href="/org-strucutre.html" class="block px-6 py-2 ">Организационная структура</a>
-                                </li>
-                                <li>
-                                    <a href="/leadership.html" class="block px-6 py-2 ">Руководство</a>
-                                </li>
-                                <li>
+    <nav class=" bg-blue-950  fixed z-30  w-full h-12 flex flex-wrap items-center justify-between mx-auto p-0">
+        <a href="/index.html" class="flex  justify-start w-auto h-12 p-2">
+            <img src="./img/logo(2).png" class="h-8 ml-7 " alt="Flowbite Logo" />
+        </a>
+        <button data-collapse-toggle="navbar-dropdown" type="button"
+            class="inline-flex  bg-blue-950 items-center p-2 w-10 h-10 justify-center text-xs md:text-xs  text-white rounded-lg md:hidden  "
+            aria-controls="navbar-dropdown" aria-expanded="false">
+            <span class="sr-only "></span>
+            <svg class="w-5 h-5   " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+        </button>
+        <div class="hidden w-full  md:block md:w-auto text-white " id="navbar-dropdown">
+            <ul
+                class="flex uppercase flex-col xl:text-base md:text-xs font-bold p-4 md:p-0 mt-5 border  bg-blue-950 text-white rounded-lg md:flex-row md:space-x-0.5 lg:md:space-x-1 md:mt-0 md:border-0 ">
+                <li>
+                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                        class="flex items-center uppercase justify-between w-full py-3 pl-1 pr-4  pr-4rounded md:hover:bg-transparent md:border-0  md:w-auto hover:text-orange-500">Компания
+                        <svg class="w-2.5 h-2.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 1 4 4 4-4" />
+                        </svg></button>
+                    <!-- Dropdown menu -->
+                    <div id="dropdownNavbar"
+                        class="z-10 hidden font-normal bg-orange-500 divide-yrounded-lg shadow w-auto">
+                        <ul class="py-6  " aria-labelledby="dropdownLargeButton">
+                            <li>
+                                <a href="/history.html" class="block px-6 py-2">История</a>
+                            </li>
+                            <li>
+                                <a href="/org-strucutre.html" class="block px-6 py-2 ">Организационная структура</a>
+                            </li>
+                            <li>
+                                <a href="/leadership.html" class="block px-6 py-2 ">Руководство</a>
+                            </li>
+                            <!-- <li>
                                     <a href="#" class="block px-6 py-2 ">Виды деятельности</a>
                                 </li>
                                 <li>
                                     <a href="#" class="block px-6 py-2 ">Планы и отчеты</a>
-                                </li>
-                                <li>
-                                    <a href="/regulations.html" class="block px-6 py-2 ">Нормативные документы</a>
-                                </li>
-                                <li>
+                                </li> -->
+                            <li>
+                                <a href="/regulations.html" class="block px-6 py-2 ">Нормативные документы</a>
+                            </li>
+                            <!-- <li>
                                     <a href="#" class="block px-6 py-2 ">Вопросы</a>
                                 </li>
                                 <li>
                                     <a href="#" class="block px-6 py-2 ">Гаджеты</a>
-                                </li>
-                        </div>
-                    </li>
-                    <!-- блоки -->
-
-                    <li class="block py-3 pl-1 lg:pl-6 pr-1 lg:pr-4  text-white  hover:text-orange-500"><a href="#"
-                            class="nav_link mr-1">Вакансия</a></li>
-                    <li class="block py-3 pl-1 lg:pl-6 pr-1 lg:pr-4 text-white  hover:text-orange-500"><a
-                            href="https://goszakup.gov.kz/" class="nav_link mr-1">Закупки</a></li>
-                    <li class="block py-3 pl-1 lg:pl-6 pr-1 lg:pr-4 text-white  hover:text-orange-500"><a
-                            href="/news.html" class="nav_link mr-1">Новости</a></li>
-                    <li class="block py-3 pl-1 lg:pl-6 pr-1 lg:pr-4 text-white  hover:text-orange-500"><a
-                            href="/contacts.html" class="nav_link mr-1">Контакты</a></li>
-
-                    <!-- Language -->
-                    <button id="dropdownDefaultButtoLanguage" data-dropdown-toggle="dropdow"
-                        class="flex  lg:pl-6 items-start justify-between w-full py-3 pl-1 pr-4  pr-4rounded md:hover:bg-transparent md:border-0  md:w-auto hover:text-orange-500 uppercase  "
-                        type="button">ru<svg class="w-2.5 h-2.5 ml-2.5 mt-1" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 1 4 4 4-4" />
-                        </svg></button>
-
-                    <div id="dropdow"
-                        class="z-10 hidden divide-y  shadow w-14 text-center  md:bg-orange-500/95 bg-orange-500 font-medium">
-                        <ul class="py-0.5 uppercase   text-white" aria-labelledby="dropdownDefaultButtoLanguage">
-                            <li>
-                                <a href="#" class="block px-4 py-2 mt-3 ">kz</a>
-                            </li>
-                            <li>
-                                <a href="#" class="block px-4 py-2 mt-3 ">en</a>
-                            </li>
-                        </ul>
+                                </li> -->
                     </div>
+                </li>
+                <!-- блоки -->
 
-                    <!-- Поиск -->
+                <!-- <li class="block py-3 pl-1 lg:pl-6 pr-1 lg:pr-4  text-white  hover:text-orange-500"><a href="#"
+                            class="nav_link mr-1">Вакансия</a></li> -->
+                <li class="block py-3 pl-1 lg:pl-6 pr-1 lg:pr-4 text-white  hover:text-orange-500"><a
+                        href="https://goszakup.gov.kz/" class="nav_link mr-1">Закупки</a></li>
+                <!-- <li class="block py-3 pl-1 lg:pl-6 pr-1 lg:pr-4 text-white  hover:text-orange-500"><a
+                            href="/news.html" class="nav_link mr-1">Новости</a></li> -->
+                <li class="block py-3 pl-1 lg:pl-6 pr-1 lg:pr-4 text-white  hover:text-orange-500"><a
+                        href="/contacts.html" class="nav_link mr-1">Контакты</a></li>
 
-                    <li>
-                        <a>
-                            <div class="flex justify-start lg:px-3 px-1 py-2">
-                                <input type="text"
-                                    class="bg-orange-500 text-gray-600  border-0 sm:w-full lg:w-auto md:w-20 h-7 font-normal px-2 py-2.5 rounded-l-lg"
-                                    name="SearchForm[keyword]" placeholder="Поиск" aria-required="true">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                                    class="bi bi-search w-5 h-7 rounded-r-lg px-1 bg-gray-200 fill-black"
-                                    viewBox="0 0 16 16">
-                                    <path
-                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                                </svg>
-                                <button type="submit" class=""></button>
-                            </div>
-                        </a>
-                    </li>
+                <!-- Language -->
+                <button id="dropdownDefaultButtoLanguage" data-dropdown-toggle="dropdow"
+                    class="flex  lg:pl-6 items-start justify-between w-full py-3 pl-1 pr-4  pr-4rounded md:hover:bg-transparent md:border-0  md:w-auto hover:text-orange-500 uppercase  "
+                    type="button">ru<svg class="w-2.5 h-2.5 ml-2.5 mt-1" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 1 4 4 4-4" />
+                    </svg></button>
 
-                </ul>
-            </div>
+                <div id="dropdow"
+                    class="z-10 hidden divide-y  shadow w-14 text-center  md:bg-orange-500/95 bg-orange-500 font-medium">
+                    <ul class="py-0.5 uppercase   text-white" aria-labelledby="dropdownDefaultButtoLanguage">
+                        <li>
+                            <a href="#" class="block px-4 py-2 mt-3 ">kz</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block px-4 py-2 mt-3 ">en</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Поиск -->
+
+                <li>
+                    <a>
+                        <div class="flex justify-start lg:px-3 px-1 py-2">
+                            <input type="text"
+                                class="bg-orange-500 text-gray-600  border-0 sm:w-full lg:w-auto md:w-20 h-7 font-normal px-2 py-2.5 rounded-l-lg"
+                                name="SearchForm[keyword]" placeholder="Поиск" aria-required="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                class="bi bi-search w-5 h-7 rounded-r-lg px-1 bg-gray-200 fill-black"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                            <button type="submit" class=""></button>
+                        </div>
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
 
 
 
-
-    <!-- 
-    <img class="object-cover absolute h-full w-full lg:w-full md:w-full lg:h-full md:h-full pt-10 font-light z-0"
-        src="/img/ofiic.jpeg" alt="cont"> -->
-
-    <div class="flex absolute  body-font text-white px-3 lg:px-24  left-9 py-6 z-10 ">
-        <h1 class="px-3  lg:px-32 py-12 lg:py-16 xl:text-3xl ">Организационная структура товарищества с ограниченной
+    <div class="z-10 flex body-font text-white px-3 lg:px-24 py-12 justify-center items-center flex-col ">
+        <h1 class="flex justify-center mb-2 font-bold xl:text-3xl z-10 px-3  lg:px-32 py-6 lg:py-10">Организационная
+            структура товарищества с
+            ограниченной
             ответственностью «Nur
-            Zholy Customs Service» </h1>
+            Zholy Customs Service» 
+        </h1>
     </div>
 
-    <img class="hidden lg:flex object-cover h-auto w-auto lg:w-auto md:w-auto lg:h-auto md:h-auto pt-48 px-40 font-light z-10"
+
+
+    <img class="hidden lg:flex object-cover h-auto w-auto lg:w-auto md:w-auto lg:h-auto md:h-auto px-40 font-light z-10"
         src="/img/org-strucutre.png" alt="cont">
 
 
 
 
 
-    <div class="inline-block lg:hidden  py-64   px-14 ">
+    <div class="inline-block lg:hidden   px-7 ">
 
         <button id="multiLevelDropdownButton" data-dropdown-toggle="dropdown"
             class="z-10  bg-blue-800 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-950 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center text-white "
@@ -160,22 +157,24 @@
         </button>
 
         <!-- Dropdown menu -->
-        <div id="dropdown" class="z-10 hidden   bg-blue-950 divide-y rounded-lg shadow w-44">
-            <ul class="py-2 text-sm text-white  bg-blue-950 " aria-labelledby="multiLevelDropdownButton">
+        <div id="dropdown" class="z-10 hidden   bg-blue-800 hover:bg-blue-900 divide-y rounded-lg shadow w-44">
+            <ul class="py-2 text-sm text-white  bg-blue-800 hover:bg-blue-900 "
+                aria-labelledby="multiLevelDropdownButton">
                 <li class="py-1">
-                    <a href="#" class="block px-4 py-2   ">Советник
+                    <a href="#" class="block px-4 py-2 ">Советник
                     </a>
                 </li>
                 <li>
                     <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown"
-                        data-dropdown-placement="right-start" type="button"
+                        data-dropdown-placement="bottom-start" type="button"
                         class="flex items-center justify-between w-full px-4 py-2  hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-950 border-t border-gray-300 my-0 ">Директор
                         <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                            fill="none" viewBox="0 0 6 10">
+                            fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 9 4-4-4-4" />
+                                d="m1 1 4 4 4-4" />
                         </svg></button>
-                    <div id="doubleDropdown" class="z-10 hidden  bg-blue-950 divide-y rounded-lg shadow w-44">
+                    <div id="doubleDropdown"
+                        class="z-10 hidden  bg-blue-800 hover:bg-blue-900 divide-y rounded-lg shadow w-44   ">
                         <ul class="py-2 text-sm text-white " aria-labelledby="doubleDropdownButton">
                             <li class="py-1">
                                 <a href="#" class="block px-4 py-2  ">Юридическая
@@ -208,11 +207,11 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg></button>
-                            <div id="doubleDropdo" class="z-10 hidden bg-blue-950 divide-y rounded-lg shadow w-44">
+                            <div id="doubleDropdo"
+                                class="z-10 hidden bg-blue-800 hover:bg-blue-900 divide-y rounded-lg shadow w-36">
                                 <ul class="py-2 text-sm text-white " aria-labelledby="doubleDropdownBut">
                                     <li>
-                                        <a href="#" class="block px-4 py-2  ">Служба по стратегическому планированию
-                                            и
+                                        <a href="#" class="block px-4 py-2   ">Служба по стратегическому планированию и
                                             инвестиционным проектам
                                         </a>
                                     </li>
@@ -233,7 +232,8 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg></button>
-                            <div id="doubleDropdow" class="z-10 hidden bg-blue-950 divide-y rounded-lg shadow w-44">
+                            <div id="doubleDropdow"
+                                class="z-10 hidden bg-blue-800 hover:bg-blue-900 divide-y rounded-lg shadow w-36">
                                 <ul class="py-2 text-sm text-white " aria-labelledby="doubleDropdownButt">
                                     <li>
                                         <a href="#" class="block px-4 py-2  ">Служба контроля СВХ
