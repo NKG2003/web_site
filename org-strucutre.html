@@ -11,10 +11,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 
-    <title>WEB PROGECT</title>
+    <title>Nurzholy</title>
 </head>
 
-<body class="font-roboto bg-gradient-to-br from-blue-800 to-black h-full w-full bg-cover bg-center bg-local ">
+<body class="font-roboto">
+
+
+
+    <div class="object-cover h-full w-full font-light z-0 bg-no-repeat bg-center bg-local ">
+        <img class="absolute flex object-cover h-full w-full font-light z-10 bg-no-repeat bg-center bg-local mt-0"
+            src="/img/office.jpeg" alt="cont">
+    </div>
 
     <nav class=" bg-blue-950  fixed z-30  w-full h-12 flex flex-wrap items-center justify-between mx-auto p-0">
         <a href="/index.html" class="flex  justify-start w-auto h-12 p-2">
@@ -132,20 +139,21 @@
             структура товарищества с
             ограниченной
             ответственностью «Nur
-            Zholy Customs Service» 
+            Zholy Customs Service»
         </h1>
     </div>
 
 
 
-    <img class="hidden lg:flex object-cover h-auto w-auto lg:w-auto md:w-auto lg:h-auto md:h-auto px-40 font-light z-10"
+
+    <img class="hidden absolute md:flex object-cover h-auto w-auto lg:w-auto md:w-auto lg:h-auto md:h-auto px-40 font-light z-10"
         src="/img/org-strucutre.png" alt="cont">
 
 
 
 
 
-    <div class="inline-block lg:hidden   px-7 ">
+    <div class="inline-block md:hidden  px-7 fixed z-10">
 
         <button id="multiLevelDropdownButton" data-dropdown-toggle="dropdown"
             class="z-10  bg-blue-800 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-950 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center text-white "
@@ -157,7 +165,7 @@
         </button>
 
         <!-- Dropdown menu -->
-        <div id="dropdown" class="z-10 hidden   bg-blue-800 hover:bg-blue-900 divide-y rounded-lg shadow w-44">
+        <div id="dropdown" class="z-10 hidden fixed  bg-blue-800 hover:bg-blue-900 divide-y rounded-lg shadow w-44">
             <ul class="py-2 text-sm text-white  bg-blue-800 hover:bg-blue-900 "
                 aria-labelledby="multiLevelDropdownButton">
                 <li class="py-1">

@@ -11,10 +11,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 
-    <title>WEB PROGECT</title>
+    <title>Nurzholy</title>
 </head>
 
-<body class="font-roboto bg-[url('/img/Astana.jpg')] h-full w-full bg-cover bg-no-repeat bg-center bg-local">
+<body class="font-roboto bg-[url('/img/Astana.jpg')] h-screen w-full bg-cover bg-no-repeat bg-center bg-local ">
+
+    <!-- <div class="object-cover h-screen absolute w-full font-light z-10 bg-no-repeat bg-center bg-local ">
+        <img class=" flex object-cover h-full w-full font-light z-10 bg-no-repeat bg-center bg-local mt-10"
+            src="/img/Astana.jpg" alt="cont">
+    </div> -->
 
     <nav class=" bg-blue-950  fixed z-30  w-full h-12 flex flex-wrap items-center justify-between mx-auto p-0">
         <a href="/index.html" class="flex  justify-start w-auto h-12 p-2">
@@ -129,55 +134,71 @@
 
 
 
-    <div class=" body-font   xl:text-2xl  text-white px-1 lg:px-16  py-20 lg:py-20">
+    <div class=" body-font justify-center flex  xl:text-2xl  text-white px-1 lg:px-16 py-20 md:py-28 lg:py-20">
         <div class=" py-1 mx-auto flex xl:justify-center md:flex-nowrap flex-wrap z-10 pl-2">
-            <div class="text-white flex-col  2xl:mr-10 mb-6 pr-4 z-10">
+            <div class="text-white flex-col  2xl:mr-10 mb-6 pr-10 z-10">
                 <h1 class="lg:mb-6 mb-4 font-bold">КОНТАКТЫ</h1>
                 <p class="font-bold mb-6">Приемная</p>
 
-                <p class="lg:text-xl">Телефон: <a href="#" class="hover:underline">+7 (7172) 73-55-37 (вн. 1101)</a>
-                </p>
-                <p class="mb-6 lg:mb-12 lg:text-xl"> Эл. почта: <a href="#" class="hover:underline">INFO@NZHKEDEN.KZ</a>
-                </p>
+                <div class="mb-6 lg:mb-12 lg:text-xl flex flex-col  lg:flex-row">
+                    <p class="lg:text-xl mr-2">Телефон:</p>
+                    <p> <a href="#" class="hover:underline">+7 (7172) 73-55-37 (вн. 1101)</a>
+                    </p>
+                </div>
 
+                <div class="mb-6 lg:mb-12 lg:text-xl flex flex-col  lg:flex-row">
+                    <p class="mr-2"> Эл. почта:</p>
+                    <p><a href="#" class="hover:underline">INFO@NZHKEDEN.KZ</a>
+                    </p>
+                </div>
 
                 <a href="#" class="font-bold mb-4 lg:mb-12">е-Минфин</a>
-                <p class="lg:text-xl mt-6">Телефон поддержки пользователей:<a href="#" class="hover:underline"> +7
-                        (7172)
-                        73-54-00</a></p>
-                <p class=" mb-6 lg:text-xl"> Эл. почта: <a href="#" class="hover:underline">minfin_support@ecc.kz</a>
-                </p>
+
+                <div class="mb-6 lg:mb-12 lg:text-xl flex flex-col  lg:flex-row  mt-6">
+                    <p class="lg:text-xl mr-2">Телефон поддержки пользователей:</p>
+                    <p><a href="#" class="hover:underline"> +7(7172) 73-54-00</a></p>
+                </div>
+
+                <div class="mb-6 lg:mb-12 lg:text-xl flex flex-col  lg:flex-row">
+                    <p class=" lg:text-xl mr-2"> Эл. почта: </p>
+                    <p><a href="#" class="hover:underline">minfin_support@ecc.kz</a>
+                    </p>
+                </div>
+
 
                 <p class="font-bold  mb-4 lg:mb-12">Местонахождение</p>
-                <a href="#" class=" lg:text-xl">ТОО «Nur Zholy Customs Service» Жетысу область,
-                    <br>Панфиловский
-                    район, Пенжимский сельский округ, <br>село Пенжим, Учетный квартал 87, здание 27</a>
-
+                <div class="flex flex-col ">
+                    <a href="#" class="lg:text-xl">ТОО «Nur Zholy Customs Service» Жетысу область,</a>
+                    <a href="#" class="lg:text-xl"> Панфиловский район, Пенжимский сельский округ,</a>
+                    <a href="#" class="lg:text-xl"> село Пенжим, Учетный квартал 87, здание 27</a>
+                </div>
             </div>
 
 
             <div class="text-white 2xl:mr-10 mb-6 pr-4 z-10  ">
                 <h1 class="text-white font-bold lg:mt-0">ОБРАТНАЯ СВЯЗЬ</h1>
-                <div class="lg:w-1/3 md:w-1/2 text-white flex flex-col md:ml-auto w-80 py-1 lg:py-8">
-                    <p class="leading-relaxed mb-5 text-base text-white text-justify">Если у вас есть предложения или вопросы,
+                <div class="lg:w-1/3 md:w-1/2 text-white flex flex-col md:ml-auto w-60  py-1 lg:py-8">
+                    <p class="leading-relaxed mb-5 text-base text-white text-justify">Если у вас есть предложения или
+                        вопросы,
                         пожалуйста,заполните следующую форму, чтобы связаться с нами.</p>
                     <div class="relative mb-4">
 
                         <input type="text" id="name" placeholder="Имя" name="name"
-                            class="w-80 text-sm rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200  outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                            class="w-60 lg:w-80 text-sm rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200  outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                     </div>
                     <div class="relative mb-4">
 
                         <input type="email" id="email" placeholder="Почта" name="email"
-                            class="w-80 text-sm rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200  outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                            class="w-60 lg:w-80 text-sm rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200  outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                     </div>
 
                     <div class="relative mb-4">
 
                         <input id="dropdownDefaultButtonSubject" data-dropdown-toggle="dropdo" type="text" id="category"
                             placeholder="Выберети категорию" name="category"
-                            class="w-80 text-sm rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200  outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                        <div id="dropdo" class="z-10 hidden divide-y  shadow w-80 text-center  bg-white  font-medium">
+                            class="w-60 lg:w-80 text-sm rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200  outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        <div id="dropdo"
+                            class="z-10 hidden divide-y  shadow w-60 lg:w-80 text-center  bg-white  font-medium">
                             <ul class=" lg:text-sm text-xs text-gray-300"
                                 aria-labelledby="dropdownDefaultButtonSubject">
                                 <li>
@@ -193,17 +214,17 @@
                     <div class="relative mb-4">
 
                         <input type="text" id="theme" placeholder="Тема" name="theme"
-                            class="w-80 text-sm rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200  outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                            class="w-60 lg:w-80 text-sm rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200  outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                     </div>
                     <div class="relative mb-4">
                         <div class="relative mb-4">
 
                             <input type="text" id="message" placeholder="Сообщение" name="message"
-                                class="w-80 text-sm rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200  outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                class="w-60 lg:w-80 text-sm rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200  outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                         </div>
 
                         <textarea id="search" name="search" placeholder="Поиск"
-                            class="w-80 text-sm rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-28  outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                            class="w-60 lg:w-80 text-sm rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-28  outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                     </div>
                     <button
                         class="text-sm bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded ">Отправить</button>
